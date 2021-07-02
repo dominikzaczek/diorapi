@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lifestyles",
+  "info": {
+    "name": "Lifestyle Products",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "cream",
+        "liquidSoap",
+        "candle"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

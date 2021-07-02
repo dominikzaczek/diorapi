@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lifestyles",
+      "handler": "lifestyle.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lifestyles/count",
+      "handler": "lifestyle.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lifestyles/:id",
+      "handler": "lifestyle.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lifestyles",
+      "handler": "lifestyle.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lifestyles/:id",
+      "handler": "lifestyle.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lifestyles/:id",
+      "handler": "lifestyle.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

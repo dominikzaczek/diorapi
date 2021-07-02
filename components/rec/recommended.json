@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_rec_recommendeds",
+  "info": {
+    "name": "Recommended",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "lifestyle_products": {
+      "collection": "lifestyle"
+    }
+  }
+}

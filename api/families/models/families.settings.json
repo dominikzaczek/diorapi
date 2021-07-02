@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "families",
+  "info": {
+    "name": "families",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "perfumes": {
+      "collection": "perfumes"
+    }
+  }
+}
