@@ -1,5 +1,5 @@
 {
-  "name": "pcd-api",
+  "name": "pcd-ap",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "graphql": "^15.5.1",
+    "graphql": "^15.5.0",
     "jquery": "^1.9.1",
     "knex": "0.21.18",
     "sqlite3": "5.0.0",
