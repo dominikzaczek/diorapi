@@ -13,6 +13,7 @@
   "dependencies": {
     "knex": "0.21.18",
     "strapi": "3.6.5",
+    "sqlite3": "5.0.0",
     "strapi-admin": "3.6.5",
     "strapi-connector-bookshelf": "3.6.5",
     "strapi-plugin-content-manager": "3.6.5",
