@@ -4,8 +4,8 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'bookshelf',
       settings: {
-        client: 'mysql',
-        host: env('DATABASE_HOST', 'quizzical-elbakyan.77-68-115-165.plesk.page'),
+        client: 'mysql',  
+        host: env('DATABASE_HOST', 'localhost'),
         port: env.int('DATABASE_PORT', 3306),
         database: env('DATABASE_NAME', 'diorapi_'),
         username: env('DATABASE_USERNAME', 'maria'),
