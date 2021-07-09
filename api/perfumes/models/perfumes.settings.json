@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "perfumes",
+  "info": {
+    "name": "Perfumes",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "notes": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "words": {
+      "type": "richtext"
+    },
+    "family": {
+      "model": "families"
+    },
+    "lifestyle_products": {
+      "collection": "lifestyle"
+    },
+    "whichCollection": {
+      "type": "enumeration",
+      "enum": [
+        "mcd",
+        "classics"
+      ]
+    }
+  }
+}
